@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5bec1d1b3d54085aea41.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gazebo_ackermann_steering_vehicle",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ackermann_steering_vehicle_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ackermann_steering_vehicle_uninstall-d1fe95f35071c15b032e.json",
+					"name" : "gazebo_ackermann_steering_vehicle_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joystick_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joystick_controller-30a8561c177798570411.json",
+					"name" : "joystick_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3c2c3ab79a89847bc8a1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_controller-83139169325269826284.json",
+					"name" : "vehicle_controller",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pc/ika_ws/build/gazebo_ackermann_steering_vehicle",
+		"source" : "/home/pc/ika_ws/src/gazebo_ackermann_steering_vehicle"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
