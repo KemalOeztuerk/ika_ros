@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/pc/ika_ws/src/gazebo_ackermann_steering_vehicle/src/joystick_controller.cpp" "CMakeFiles/joystick_controller.dir/src/joystick_controller.cpp.o" "gcc" "CMakeFiles/joystick_controller.dir/src/joystick_controller.cpp.o.d"
+  "/home/pc/ika_ros/src/gazebo_ackermann_steering_vehicle/src/joystick_controller.cpp" "CMakeFiles/joystick_controller.dir/src/joystick_controller.cpp.o" "gcc" "CMakeFiles/joystick_controller.dir/src/joystick_controller.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pc/ika_ws/src/gazebo_ackermann_steering_vehicle
+CMAKE_SOURCE_DIR = /home/pc/ika_ros/src/gazebo_ackermann_steering_vehicle
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pc/ika_ws/build/gazebo_ackermann_steering_vehicle
+CMAKE_BINARY_DIR = /home/pc/ika_ros/build/gazebo_ackermann_steering_vehicle
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/ika_ws/build/gazebo_ackermann_steering_vehicle/CMakeFiles /home/pc/ika_ws/build/gazebo_ackermann_steering_vehicle//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/ika_ros/build/gazebo_ackermann_steering_vehicle/CMakeFiles /home/pc/ika_ros/build/gazebo_ackermann_steering_vehicle//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/ika_ws/build/gazebo_ackermann_steering_vehicle/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/ika_ros/build/gazebo_ackermann_steering_vehicle/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

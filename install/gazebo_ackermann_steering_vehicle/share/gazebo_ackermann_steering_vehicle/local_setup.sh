@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/home/pc/ika_ws/install/gazebo_ackermann_steering_vehicle"}
+: ${AMENT_CURRENT_PREFIX:="/home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \

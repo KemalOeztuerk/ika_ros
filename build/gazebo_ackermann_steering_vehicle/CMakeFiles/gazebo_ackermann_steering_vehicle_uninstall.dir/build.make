@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pc/ika_ws/src/gazebo_ackermann_steering_vehicle
+CMAKE_SOURCE_DIR = /home/pc/ika_ros/src/gazebo_ackermann_steering_vehicle
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pc/ika_ws/build/gazebo_ackermann_steering_vehicle
+CMAKE_BINARY_DIR = /home/pc/ika_ros/build/gazebo_ackermann_steering_vehicle
 
 # Utility rule file for gazebo_ackermann_steering_vehicle_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/gazebo_ackermann_steering_vehicle_uninstall.dir/compiler_depe
 include CMakeFiles/gazebo_ackermann_steering_vehicle_uninstall.dir/progress.make
 
 CMakeFiles/gazebo_ackermann_steering_vehicle_uninstall:
-	/usr/bin/cmake -P /home/pc/ika_ws/build/gazebo_ackermann_steering_vehicle/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/pc/ika_ros/build/gazebo_ackermann_steering_vehicle/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 gazebo_ackermann_steering_vehicle_uninstall: CMakeFiles/gazebo_ackermann_steering_vehicle_uninstall
 gazebo_ackermann_steering_vehicle_uninstall: CMakeFiles/gazebo_ackermann_steering_vehicle_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/gazebo_ackermann_steering_vehicle_uninstall.dir/clean:
 .PHONY : CMakeFiles/gazebo_ackermann_steering_vehicle_uninstall.dir/clean
 
 CMakeFiles/gazebo_ackermann_steering_vehicle_uninstall.dir/depend:
-	cd /home/pc/ika_ws/build/gazebo_ackermann_steering_vehicle && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pc/ika_ws/src/gazebo_ackermann_steering_vehicle /home/pc/ika_ws/src/gazebo_ackermann_steering_vehicle /home/pc/ika_ws/build/gazebo_ackermann_steering_vehicle /home/pc/ika_ws/build/gazebo_ackermann_steering_vehicle /home/pc/ika_ws/build/gazebo_ackermann_steering_vehicle/CMakeFiles/gazebo_ackermann_steering_vehicle_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/pc/ika_ros/build/gazebo_ackermann_steering_vehicle && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pc/ika_ros/src/gazebo_ackermann_steering_vehicle /home/pc/ika_ros/src/gazebo_ackermann_steering_vehicle /home/pc/ika_ros/build/gazebo_ackermann_steering_vehicle /home/pc/ika_ros/build/gazebo_ackermann_steering_vehicle /home/pc/ika_ros/build/gazebo_ackermann_steering_vehicle/CMakeFiles/gazebo_ackermann_steering_vehicle_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/gazebo_ackermann_steering_vehicle_uninstall.dir/depend
 

@@ -1,7 +1,7 @@
 CMakeFiles/vehicle_controller.dir/src/vehicle_controller.cpp.o: \
- /home/pc/ika_ws/src/gazebo_ackermann_steering_vehicle/src/vehicle_controller.cpp \
+ /home/pc/ika_ros/src/gazebo_ackermann_steering_vehicle/src/vehicle_controller.cpp \
  /usr/include/stdc-predef.h \
- /home/pc/ika_ws/src/gazebo_ackermann_steering_vehicle/include/vehicle_controller.hpp \
+ /home/pc/ika_ros/src/gazebo_ackermann_steering_vehicle/include/vehicle_controller.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/13/csignal \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \

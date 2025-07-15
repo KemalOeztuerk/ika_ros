@@ -1,7 +1,7 @@
 CMakeFiles/joystick_controller.dir/src/joystick_controller.cpp.o: \
- /home/pc/ika_ws/src/gazebo_ackermann_steering_vehicle/src/joystick_controller.cpp \
+ /home/pc/ika_ros/src/gazebo_ackermann_steering_vehicle/src/joystick_controller.cpp \
  /usr/include/stdc-predef.h \
- /home/pc/ika_ws/src/gazebo_ackermann_steering_vehicle/include/joystick_controller.hpp \
+ /home/pc/ika_ros/src/gazebo_ackermann_steering_vehicle/include/joystick_controller.hpp \
  /usr/include/c++/13/cmath /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

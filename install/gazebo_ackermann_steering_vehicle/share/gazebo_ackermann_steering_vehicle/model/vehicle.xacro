@@ -231,33 +231,6 @@
     </inertial>
   </link>
 
-  <!-- Camera Stick Link -->
-  <link name="camera_stick_link">
-    <collision>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry>
-        <box size="${camera_stick_size} ${camera_stick_size} ${camera_height}"/>
-      </geometry>
-    </collision>
-
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry>
-        <box size="${camera_stick_size} ${camera_stick_size} ${camera_height}"/>
-      </geometry>
-
-      <material name="camera_stick_material">
-        <color rgba="0.25 0.25 0.25 1.0"/>
-      </material>
-    </visual>
-
-    <inertial>
-      <mass value="1e-5" />
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
-    </inertial>
-  </link>
-
   <!-- Camera Link -->
   <link name="camera_link">
     <collision>
@@ -346,21 +319,12 @@
     <limit effort="${max_effort}" velocity="${max_wheel_angular_velocity}"/>
     <dynamics damping="0.1" friction="0.1"/>
   </joint>
-
-  <!-- Camera Stick Joint -->
-  <joint name="camera_stick_joint" type="fixed">
-    <axis xyz="0 1 0" />
-    <origin xyz="${body_length/2 - camera_stick_size/2} ${camera_box_size/2 + camera_stick_size/2} ${camera_height/2}" rpy="0.0 0.0 0.0"/>
-    <parent link="body_link"/>
-    <child link="camera_stick_link"/>
-  </joint>
-
+  
   <!-- Camera Joint -->
   <joint name="camera_joint" type="fixed">
-    <axis xyz="0 1 0" />
-    <origin xyz="0.0 ${-camera_box_size/2 - camera_stick_size/2} ${camera_height/2}" rpy="0 ${camera_pitch} 0"/>
-    <origin xyz="0.0 0.0 0.0" rpy="0 ${camera_pitch} 0"/>
-    <parent link="camera_stick_link"/>
+    <axis xyz="0 0 0" />
+    <origin xyz="${body_length/2} 0.0 ${camera_height/2}" rpy="0 0 0"/>
+    <parent link="body_link"/>
     <child link="camera_link"/>
   </joint>
 
