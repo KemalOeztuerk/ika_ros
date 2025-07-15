@@ -1,0 +1,33 @@
+[0.009s] Invoking command in '/home/pc/ika_ros/build/gazebo_ackermann_steering_vehicle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv-ardupilot) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/pc/ika_ros/build/gazebo_ackermann_steering_vehicle -- -j12 -l12
+[0.059s] [100%] Built target joystick_controller
+[0.059s] [100%] Built target vehicle_controller
+[0.068s] Invoked command in '/home/pc/ika_ros/build/gazebo_ackermann_steering_vehicle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv-ardupilot) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/pc/ika_ros/build/gazebo_ackermann_steering_vehicle -- -j12 -l12
+[0.076s] Invoking command in '/home/pc/ika_ros/build/gazebo_ackermann_steering_vehicle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv-ardupilot) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/pc/ika_ros/build/gazebo_ackermann_steering_vehicle
+[0.086s] -- Install configuration: ""
+[0.086s] -- Up-to-date: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/launch
+[0.087s] -- Up-to-date: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/launch/joystick.launch.py
+[0.087s] -- Up-to-date: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/launch/vehicle.launch.py
+[0.087s] -- Up-to-date: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/model
+[0.087s] -- Up-to-date: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/model/vehicle.xacro
+[0.087s] -- Up-to-date: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/config
+[0.087s] -- Installing: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/config/parameters.yaml
+[0.087s] -- Up-to-date: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/config/ros_gz_bridge.yaml
+[0.087s] -- Up-to-date: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/config/gz_ros2_control.yaml
+[0.087s] -- Up-to-date: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/lib/gazebo_ackermann_steering_vehicle/vehicle_controller
+[0.087s] -- Up-to-date: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/lib/gazebo_ackermann_steering_vehicle/joystick_controller
+[0.088s] -- Up-to-date: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/share/ament_index/resource_index/package_run_dependencies/gazebo_ackermann_steering_vehicle
+[0.088s] -- Up-to-date: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/share/ament_index/resource_index/parent_prefix_path/gazebo_ackermann_steering_vehicle
+[0.088s] -- Up-to-date: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/environment/ament_prefix_path.sh
+[0.088s] -- Up-to-date: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/environment/ament_prefix_path.dsv
+[0.088s] -- Up-to-date: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/environment/path.sh
+[0.088s] -- Up-to-date: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/environment/path.dsv
+[0.088s] -- Up-to-date: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/local_setup.bash
+[0.089s] -- Up-to-date: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/local_setup.sh
+[0.089s] -- Up-to-date: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/local_setup.zsh
+[0.089s] -- Up-to-date: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/local_setup.dsv
+[0.089s] -- Installing: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/package.dsv
+[0.090s] -- Up-to-date: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/share/ament_index/resource_index/packages/gazebo_ackermann_steering_vehicle
+[0.090s] -- Up-to-date: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/cmake/gazebo_ackermann_steering_vehicleConfig.cmake
+[0.090s] -- Up-to-date: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/cmake/gazebo_ackermann_steering_vehicleConfig-version.cmake
+[0.090s] -- Up-to-date: /home/pc/ika_ros/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/package.xml
+[0.091s] Invoked command in '/home/pc/ika_ros/build/gazebo_ackermann_steering_vehicle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv-ardupilot) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/pc/ika_ros/build/gazebo_ackermann_steering_vehicle
